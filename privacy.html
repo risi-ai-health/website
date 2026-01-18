@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Risi.ai</title>
+  <meta name="description" content="Risi AI Privacy Policy - Learn how we protect your health data with our privacy-first, on-device wellness companion.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.risi.ai/privacy">
+  <meta property="og:title" content="Privacy Policy - Risi.ai">
+  <meta property="og:description" content="Risi AI Privacy Policy - Your health data stays on your device.">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%236b7b63' rx='20' width='100' height='100'/><path fill='white' d='M50 20L25 35l25 12.5L75 35 50 20zM25 55l25 12.5L75 55M25 45l25 12.5L75 45' stroke='white' stroke-width='4' fill='none'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --sage-50: #f4f6f2;
+      --sage-100: #e8ebe4;
+      --sage-200: #d4dace;
+      --sage-300: #b5bfad;
+      --sage-400: #8a9880;
+      --sage-500: #6b7b63;
+      --sage-600: #5a6854;
+      --sage-700: #485344;
+      --sage-800: #3c4439;
+      --cream: #faf9f6;
+      --cream-dark: #f5f3ef;
+      --text-primary: #2d3429;
+      --text-secondary: #5a6354;
+      --text-muted: #7d8577;
+      --white: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'DM Sans', -apple-system, sans-serif;
+      background: var(--cream);
+      color: var(--text-primary);
+      line-height: 1.7;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 1rem 2rem;
+      background: rgba(250, 249, 246, 0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--sage-100);
+    }
+
+    .nav-content {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: 'Fraunces', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--sage-700);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo-icon {
+      width: 32px;
+      height: 32px;
+      background: var(--sage-500);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-icon svg {
+      width: 18px;
+      height: 18px;
+      stroke: white;
+    }
+
+    .back-link {
+      color: var(--sage-600);
+      text-decoration: none;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover {
+      color: var(--sage-700);
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 8rem 2rem 4rem;
+    }
+
+    h1 {
+      font-family: 'Fraunces', serif;
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: var(--sage-700);
+      margin-bottom: 0.5rem;
+    }
+
+    .effective-date {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+
+    .highlight-box {
+      background: var(--sage-50);
+      border: 1px solid var(--sage-200);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    .highlight-box p {
+      margin: 0;
+      font-weight: 500;
+      color: var(--sage-700);
+    }
+
+    h2 {
+      font-family: 'Fraunces', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--sage-700);
+      margin: 2.5rem 0 1rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin: 1.5rem 0 0.75rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: var(--text-secondary);
+    }
+
+    ul {
+      margin: 1rem 0 1rem 1.5rem;
+      color: var(--text-secondary);
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.95rem;
+    }
+
+    th, td {
+      padding: 0.75rem 1rem;
+      text-align: left;
+      border-bottom: 1px solid var(--sage-100);
+    }
+
+    th {
+      background: var(--sage-50);
+      font-weight: 600;
+      color: var(--sage-700);
+    }
+
+    td {
+      color: var(--text-secondary);
+    }
+
+    strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    footer {
+      background: var(--sage-800);
+      color: var(--sage-200);
+      padding: 2rem;
+      margin-top: 4rem;
+    }
+
+    .footer-content {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .footer-logo {
+      font-family: 'Fraunces', serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    .footer-links a {
+      color: var(--sage-300);
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: var(--white);
+    }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 2rem; }
+      main { padding: 6rem 1.5rem 3rem; }
+      .footer-content { flex-direction: column; text-align: center; }
+      .footer-links a { margin: 0 0.75rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <a href="/" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        Risi
+      </a>
+      <a href="/" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back to Home
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="effective-date">Effective Date: January 17, 2026 | Last Updated: January 17, 2026</p>
+
+    <div class="highlight-box">
+      <p>Key Privacy Commitment: Risi AI does not collect, transmit, or store any personal data on external servers. All processing occurs locally on your device.</p>
+    </div>
+
+    <h2>Overview</h2>
+    <p>Risi AI ("the App", "we", "us", or "our") is a privacy-first wellness companion designed to provide health insights entirely on your device. We are committed to protecting your privacy and ensuring you have full control over your personal health data.</p>
+
+    <h2>Data Collection Summary</h2>
+    <table>
+      <tr>
+        <th>Data Type</th>
+        <th>Collected</th>
+        <th>Transmitted</th>
+        <th>Stored Externally</th>
+      </tr>
+      <tr>
+        <td>HealthKit Data</td>
+        <td>Read locally</td>
+        <td>No</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Conversation History</td>
+        <td>Stored locally</td>
+        <td>No</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>App Preferences</td>
+        <td>Stored locally</td>
+        <td>No</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Personal Information</td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <td>Analytics/Tracking</td>
+        <td>No</td>
+        <td>No</td>
+        <td>No</td>
+      </tr>
+    </table>
+
+    <p><strong>We do not collect any personal data.</strong></p>
+    <p>Risi AI is designed with a "zero data collection" architecture:</p>
+    <ul>
+      <li><strong>No accounts required</strong> - You can use the app without creating an account or providing any personal information</li>
+      <li><strong>No cloud services</strong> - All data processing happens locally on your device</li>
+      <li><strong>No analytics or tracking</strong> - We do not use any third-party analytics, advertising, or tracking services</li>
+      <li><strong>No data transmission</strong> - Your health data never leaves your device</li>
+      <li><strong>No third-party SDKs</strong> - We do not include any third-party analytics, advertising, or data collection SDKs</li>
+    </ul>
+
+    <h2>HealthKit Data</h2>
+    <p>Risi AI integrates with Apple HealthKit to provide wellness insights. Here's how we handle this data:</p>
+
+    <h3>What We Access</h3>
+    <p>With your explicit permission, Risi AI may read the following HealthKit data types:</p>
+    <ul>
+      <li>Activity and workout data (steps, exercise minutes, active calories)</li>
+      <li>Sleep analysis and sleep stages</li>
+      <li>Heart rate and heart rate variability (HRV)</li>
+      <li>Resting heart rate and walking heart rate</li>
+      <li>Mindfulness minutes</li>
+      <li>Body measurements (weight, body fat percentage, BMI)</li>
+      <li>VO2 Max and cardio fitness data</li>
+      <li>Cardio recovery metrics</li>
+      <li>State of Mind (iOS 18+)</li>
+      <li>Daylight exposure time</li>
+    </ul>
+
+    <h3>How We Use It</h3>
+    <ul>
+      <li>All HealthKit data is processed <strong>locally on your device</strong></li>
+      <li>Data is used solely to calculate your Wellness Score and provide personalized insights</li>
+      <li>The on-device AI analyzes patterns to offer wellness suggestions</li>
+      <li><strong>No HealthKit data is ever transmitted, stored externally, or shared with anyone</strong></li>
+    </ul>
+
+    <h3>HealthKit Compliance</h3>
+    <p>In accordance with Apple's HealthKit guidelines:</p>
+    <ul>
+      <li>We do not use HealthKit data for advertising or user tracking</li>
+      <li>We do not sell or share HealthKit data with third parties</li>
+      <li>We do not use HealthKit data to build user profiles for advertising</li>
+    </ul>
+
+    <h3>Your Control</h3>
+    <ul>
+      <li>You can revoke HealthKit access at any time through iOS Settings > Privacy & Security > Health > Risi AI</li>
+      <li>Deleting the app removes all locally stored preferences and cached data</li>
+      <li>You can selectively enable or disable individual health data types</li>
+    </ul>
+
+    <h2>On-Device AI Processing</h2>
+    <p>Risi AI uses Apple's MLX framework to run a local AI model:</p>
+    <ul>
+      <li>The AI model runs <strong>entirely on your device</strong> using Apple Silicon</li>
+      <li>No prompts, responses, or health data are sent to external servers</li>
+      <li>Your conversations with the AI remain completely private</li>
+      <li>The AI cannot access any data outside of what you explicitly share within the app</li>
+      <li>Model weights are downloaded once during initial setup and stored locally</li>
+    </ul>
+
+    <h2>Data Storage</h2>
+    <p>All data is stored locally on your device:</p>
+    <ul>
+      <li><strong>Preferences</strong> - App settings stored in iOS UserDefaults</li>
+      <li><strong>Conversation history</strong> - Stored locally, never transmitted</li>
+      <li><strong>Wellness calculations</strong> - Computed on-demand, not persistently stored</li>
+      <li><strong>Goals and reminders</strong> - Stored locally using iOS standard frameworks</li>
+    </ul>
+
+    <h3>Data Retention</h3>
+    <ul>
+      <li>All data remains on your device until you delete the app</li>
+      <li>Uninstalling Risi AI removes all app data from your device</li>
+      <li>HealthKit data is managed by Apple Health and is not affected by uninstalling Risi AI</li>
+    </ul>
+
+    <h2>Third-Party Services</h2>
+    <p>Risi AI does not integrate with any third-party services that collect user data. The only external integrations are:</p>
+    <ul>
+      <li><strong>Apple HealthKit</strong> - Read-only access to health data you authorize</li>
+      <li><strong>Apple Game Center</strong> (optional) - For wellness achievements and leaderboards, governed by Apple's privacy policy</li>
+      <li><strong>Apple EventKit</strong> (optional) - For calendar integration, governed by Apple's privacy policy</li>
+    </ul>
+    <p>No user data is shared with these services beyond what is required for their standard functionality.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Risi AI does not knowingly collect any information from children under 13 (or the applicable age in your jurisdiction). The app is designed for general audiences interested in wellness tracking. If you believe a child has provided us with personal information, please contact us immediately.</p>
+
+    <h2>International Users</h2>
+
+    <h3>GDPR Compliance (European Economic Area)</h3>
+    <p>Since Risi AI does not collect, process, or store personal data on external servers, GDPR rights are automatically satisfied:</p>
+    <ul>
+      <li><strong>Right to Access</strong> - All your data is already on your device</li>
+      <li><strong>Right to Rectification</strong> - You can modify your data directly in the app</li>
+      <li><strong>Right to Erasure</strong> - Delete the app to remove all data</li>
+      <li><strong>Right to Portability</strong> - Your HealthKit data remains in Apple Health</li>
+      <li><strong>Right to Object</strong> - No data processing to object to</li>
+    </ul>
+
+    <h3>CCPA Compliance (California Residents)</h3>
+    <p>In compliance with the California Consumer Privacy Act:</p>
+    <ul>
+      <li>We do not sell personal information</li>
+      <li>We do not share personal information for cross-context behavioral advertising</li>
+      <li>Since we collect no personal information, opt-out rights are automatically satisfied</li>
+    </ul>
+
+    <h3>Other Jurisdictions</h3>
+    <p>Risi AI's privacy-first design ensures compliance with privacy regulations worldwide by not collecting personal data.</p>
+
+    <h2>Security</h2>
+    <p>While we do not collect or transmit data, we implement security best practices:</p>
+    <ul>
+      <li>All local data storage uses iOS secure storage mechanisms</li>
+      <li>The app follows Apple's security guidelines for HealthKit integration</li>
+      <li>No network connections are made for data collection purposes</li>
+    </ul>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be reflected in the "Last Updated" date above. Continued use of the app after changes constitutes acceptance of the updated policy. Significant changes will be communicated through app updates.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have questions about this Privacy Policy or the app's privacy practices, please contact us at:</p>
+    <p><strong>Email:</strong> privacy@risi.ai</p>
+    <p><strong>Developer:</strong> Andrei Lyskov<br>
+    <strong>Location:</strong> San Francisco, California, USA</p>
+
+    <h2>Your Rights Summary</h2>
+    <table>
+      <tr>
+        <th>Right</th>
+        <th>How Satisfied</th>
+      </tr>
+      <tr>
+        <td>Access your data</td>
+        <td>All data is on your device</td>
+      </tr>
+      <tr>
+        <td>Delete your data</td>
+        <td>Uninstall the app</td>
+      </tr>
+      <tr>
+        <td>Data portability</td>
+        <td>HealthKit data stays in Apple Health</td>
+      </tr>
+      <tr>
+        <td>Opt-out of sale</td>
+        <td>We don't sell data</td>
+      </tr>
+      <tr>
+        <td>Non-discrimination</td>
+        <td>We don't collect data to discriminate</td>
+      </tr>
+    </table>
+
+    <div class="highlight-box" style="margin-top: 3rem;">
+      <p>Risi AI is designed with privacy as a core principle. Your health data belongs to you and stays with you.</p>
+    </div>
+    <p style="text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-top: 1rem;">
+      This privacy policy is compliant with Apple App Store requirements, GDPR, CCPA, and applicable privacy laws.
+    </p>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <a href="/" class="footer-logo">Risi.ai</a>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="mailto:support@risi.ai">Support</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
